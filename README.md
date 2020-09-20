@@ -17,3 +17,9 @@ makepkg
 ```bash
 sudo pacman -U koompi-maintenance-0.1-1-any.pkg.tar.zst
 ```
+
+# Usage
+
+```bash
+pkexec
+```
