@@ -1,0 +1,13 @@
+#!/bin/bash
+
+main() {
+    rm -rf ${HOME}/.cache/*
+
+    sudo journalctl --vacuum-size=200M;
+    sudo pacman -Syu --noconfirm;
+    sudo pacman -Rsn --noconfirm $(pacman -Qtdq);
+    yes 2>/dev/null | sudo pacman -Scc
+
+}
+
+main
