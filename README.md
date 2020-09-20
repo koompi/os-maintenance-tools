@@ -2,7 +2,7 @@
 
 This is a simple tool for freeing up KOOMPI OS root file system and user home directory
 for difference caches. This will help prevent user for bootup failure for not having enough
-storage to boot. This usually affect SDDM to start.
+storage to boot. This usually affects SDDM failed to start.
 
 # Build
 
